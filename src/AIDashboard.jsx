@@ -380,7 +380,7 @@ const SvgIcons = {
 // ─── Main Component ───────────────────────────────────────────────────────────
 const AIPromptDashboard = ({
   
-  apiBase = "https://ask-ai-project-clean.onrender.com/api/ai",
+  apiBase = import.meta.env.VITE_API_URL,
   appName = "ASK AI",
   heroTitle = "ASK AI",
   heroSubtitle = "AI Agricultural Assistant",
