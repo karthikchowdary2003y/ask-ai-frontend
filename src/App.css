@@ -181,4 +181,9 @@
     right: 0;
     border-right-color: var(--border);
   }
+  .aid-msg-ai {
+  overflow-wrap: break-word;
+  white-space: pre-wrap;   /* ✅ add this */
+  overflow: visible;        /* ✅ add this */
+}
 }
